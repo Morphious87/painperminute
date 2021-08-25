@@ -20,12 +20,26 @@
 
 .textContainer {
     outline: #4CAF50 solid 0px;
-    width: 50ch;
+    width: 50%;
     height: 8rem;
     margin-left: auto;
     margin-right: auto;
 }
 
+.resultText {
+    margin-top: 2rem;
+    width: 100%;
+}
+
 .writtenText { user-select: none; color: whitesmoke; }
 .wrongText { user-select: none; color: white; background-color: crimson; } 
 .remainingText { user-select: none; color:gray; }
+
+.bottomText { 
+    position: absolute;
+    text-align: center;
+    width: 99%;
+    font-size: 24px; 
+    bottom:1ch;
+    opacity: 0.5;
+}
