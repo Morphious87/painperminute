@@ -1,0 +1,31 @@
+* {
+    --backgroundcolor: #171d26;
+    --foregroundcolor: #9be;
+}
+
+:root {
+    background-color: var(--backgroundcolor);
+    color: var(--foregroundcolor);
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monsterrat;
+    font-size: 32px;
+}
+
+@font-face {
+    font-family: monsterrat;
+    src: url("monsterrat.ttf");
+}
+
+.textContainer {
+    outline: #4CAF50 solid 0px;
+    width: 50ch;
+    height: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.writtenText { user-select: none; color: whitesmoke; }
+.wrongText { user-select: none; color: white; background-color: crimson; } 
+.remainingText { user-select: none; color:gray; }
